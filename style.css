@@ -1,0 +1,48 @@
+/* shared styles */
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Nav bar styles */
+.nav{
+   height: 130px;
+   border: 2px solid blue;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.logo-content{
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    gap: 4px;
+}
+
+.logo img{
+    width: 40px;
+}
+.nav-menu > ul{
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center ;
+    padding-right: 30px;
+    
+    padding-top: 30px;
+   align-content: center;
+}
+.nav-menu li{
+    list-style: none;
+    padding-left: 20px;
+}
+#Follow{
+  
+text-align: center;
+padding: 5px;
+border-radius: 5px;
+background: rgba(11, 2, 35, 0.10);
+}
