@@ -54,17 +54,24 @@ background: rgba(11, 2, 35, 0.10);
     color: red;
 }
 /* Banner styles */
+.banner-content img{
+    height: ;
+
+}
+    
+
 .Banner{
     padding-top: 10px;
     padding-right: 50px;
    padding-left: 50px;
    display: flex;
    justify-content: space-between;
-   height: 400px;
+   
    background-color: rgba(140, 87, 238, 0.03);
 }
-.Banner img{
-    height: 400px;
-    width: 400px;
-    padding-right: 70px;
+.banner-content{
+    
+}
+.banner-img{
+ 
 }
