@@ -199,8 +199,6 @@ font-size: 35px;
     height: 550px;
     padding-left: 80px;
     padding-right: 100px;
-    
-    border: 2px solid pink;
 }
 .play-instant-container {
     display: flex;
@@ -244,3 +242,41 @@ right: 40px;
     
 }
 
+/* sponsor section */
+.Sponsor-container{
+        display: flex;
+        height: 40;
+        gap: 28px;
+        flex-wrap: wrap;
+        padding: 40px;
+        justify-content: space-around;
+        background-color: #c7137f1a;  
+}
+.div {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #ffff;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .div > img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .div > p {
+    color: #0b0223;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .div:hover {
+    border: 1px solid rgb(255, 108, 133);
+    color:  rgb(255, 108, 133);
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .div > p:hover {
+    color: rgb(255, 108, 133);
+  }
