@@ -110,6 +110,7 @@ font-size: 35px;
     justify-content: space-between;
     gap: 40px;
     padding-left: 100px;
+    
     background-color: rgba(255, 66, 165, 0.03);
 }
 .know-more-content{
@@ -122,6 +123,9 @@ font-size: 35px;
 }
 
 /* online games section styles */
+.online-games{
+    height: 550px;
+}
 
 .online-games-title{
     padding: 1% 30% 2% 30%;
@@ -139,21 +143,104 @@ font-size: 35px;
     gap: 10px;
     padding: 10px 100px 40px 100px;
     
+  
+    
 }
 .online-games-card > .card{
     border-radius: 18px;
     width: 255px;
     height: 265px;
+    position: relative;
+    display: inline-block; 
+    cursor: pointer;
+    
   
 }
 .card > img{
     width: 250px;
     height: 260px;
+    overflow: hidden;
+    
 }
-.play-instant 
+    
+    
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .play-button {
+    font-size: 48px;
+  }
+  
+  .watch-now {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+
+
+/* play instant section styles */
+.play-instant{
+    height: 550px;
+    padding-left: 80px;
+    padding-right: 100px;
+    
+    border: 2px solid pink;
+}
+.play-instant-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 0px;
+    gap: 190px;
+}
 
 .play-instant h1{
-   
+   text-align: right;
+   padding-left: 60px;
+}
 
+.play-instant span{
+    color: #F948B2;
+}
+.play-instant p{
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 340px;
+    padding-left: 60px;
+ }
+.play-instant-img > img{
+    height: 450px;
+    width: 400px;
+}
+.imgtwo{
+    width: 318.5px;
+height: 365.083px;
+
+}
+.imgtwo > img{
+    height: 300px;
+margin: 0px;
+position: relative;
+bottom: 230px;
+right: 40px;
+    
 }
 
