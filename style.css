@@ -54,21 +54,21 @@ background: rgba(11, 2, 35, 0.10);
 }
 /* Banner styles */
 .Banner{
-   padding-top: 10px;
    display: flex;
    justify-content: space-between;
-   background-color: rgba(140, 87, 238, 0.03);
+   background-color: white;
+   
 }
 .banner-content{
   background-image: url(img/Group\ 14.png);
-  height: 470px ;
+  height: 500px ;
   width: 540px;
   padding-top: 100px;
   padding-right: 100px;
   padding-left: 150px;
 }
 .banner-img > img{
-    height: 580px ;
+    height: 595px ;
     width: 440px;
     padding-right: 100px;
 }
@@ -92,3 +92,18 @@ background: rgba(11, 2, 35, 0.10);
     margin-left: 20px;
 }
 /* know more section style */
+.know-more{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 100px;
+    background-color: rgba(255, 66, 165, 0.03);
+}
+.know-more-content{
+    text-align: right;
+    padding-right: 100px;
+}
+.know-more-img > img{
+    height: 350px;
+    width: 540px;
+}
