@@ -168,9 +168,10 @@ font-size: 35px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 260px;
     opacity: 0;
+    border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
@@ -178,6 +179,7 @@ font-size: 35px;
     align-items: center;
     color: #fff;
     cursor: pointer;
+    transition: 0.4s;
   }
   
   .play-button {
@@ -280,3 +282,62 @@ right: 40px;
   .div > p:hover {
     color: rgb(255, 108, 133);
   }
+
+
+/* Footer section styles */
+.footer-content{
+  margin: auto;
+  background-color: #0b0223;
+  padding: 100px 250px;
+  margin: auto;
+  text-align: center;
+}
+.footer-logo-container{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+  color: #fff;
+}
+.F{
+    color: #FF42A5 ;
+}
+.footer-logo img{
+    width: 40px;
+    
+}
+.footer-list {
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 61px;
+    padding-bottom: 20px;
+    list-style: none;
+  }
+  .footer-icon a > i {
+    font-weight: 400;
+    gap: 30px;
+    margin-left: 34px;
+    font-size: 23px;
+    color: #fff;
+  }
+  .footer-text {
+    display: flex;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0px;
+    gap: 30px;
+  }
+  .footer-bd {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+
