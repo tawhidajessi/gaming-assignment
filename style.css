@@ -11,8 +11,8 @@ font-family: 'Work Sans', sans-serif;
 .nav{
    height: 80px;
    display: flex;
-   padding-right: 50px;
-   padding-left: 50px;
+   padding-right: 100px;
+   padding-left: 150px;
    padding-bottom: 40px;
    justify-content: space-between;
    
@@ -35,7 +35,6 @@ font-family: 'Work Sans', sans-serif;
     justify-items: center;
     align-items: center ;
     padding-right: 30px;
-    
     padding-top: 30px;
    align-content: center;
 }
@@ -54,24 +53,42 @@ background: rgba(11, 2, 35, 0.10);
     color: red;
 }
 /* Banner styles */
-.banner-content img{
-    height: ;
-
-}
-    
-
 .Banner{
-    padding-top: 10px;
-    padding-right: 50px;
-   padding-left: 50px;
+   padding-top: 10px;
    display: flex;
    justify-content: space-between;
-   
    background-color: rgba(140, 87, 238, 0.03);
 }
 .banner-content{
-    
+  background-image: url(img/Group\ 14.png);
+  height: 470px ;
+  width: 540px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 150px;
 }
-.banner-img{
- 
+.banner-img > img{
+    height: 580px ;
+    width: 440px;
+    padding-right: 100px;
 }
+.pink-btn{
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 20px;
+}
+.blue-btn{
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* know more section style */
