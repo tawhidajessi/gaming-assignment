@@ -1,10 +1,14 @@
 /* shared styles */
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+  * {
+    font-family: "Work Sans", sans-serif;
+  }
+  .root {
+    --color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  }
 
-*{
-font-family: 'Work Sans', sans-serif;
-}
+
 
 
 /* Nav bar styles */
@@ -52,12 +56,21 @@ background: rgba(11, 2, 35, 0.10);
 .fa-youtube{
     color: red;
 }
+
 /* Banner styles */
 .Banner{
    display: flex;
    justify-content: space-between;
    background-color: white;
    
+}
+.title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 35px;
+    
 }
 .banner-content{
   background-image: url(img/Group\ 14.png);
@@ -107,3 +120,40 @@ background: rgba(11, 2, 35, 0.10);
     height: 350px;
     width: 540px;
 }
+
+/* online games section styles */
+
+.online-games-title{
+    padding: 1% 30% 2% 30%;
+    text-align: center;
+    
+}
+.online-games-title > h1{
+    font-size: 35px;
+    
+}
+.online-games-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 100px 40px 100px;
+    
+}
+.online-games-card > .card{
+    border-radius: 18px;
+    width: 255px;
+    height: 265px;
+  
+}
+.card > img{
+    width: 250px;
+    height: 260px;
+}
+.play-instant 
+
+.play-instant h1{
+   
+
+}
+
